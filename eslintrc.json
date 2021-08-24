@@ -1,0 +1,9 @@
+{
+    "extends": ["standard", "standard-jsx"],
+    "settings": {
+        "import/parsers": {
+            "typescript-eslint-parser": [".ts", ".tsx"]
+        }
+    }
+}
+  

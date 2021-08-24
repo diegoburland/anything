@@ -1,0 +1,63 @@
+.counters{
+    height: 100%;
+    padding-top: 82px;
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    &__container{
+        overflow-y: auto;
+    }
+
+    &__totalers--items{
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--black);
+        margin-right: 7px;
+    }
+
+    &__totalers--times{
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--grey);
+        margin-right: 8px;
+    }
+
+    &__totalers--refresh{
+        font-size: 15px;
+        color: var(--black);
+        svg{
+        font-size: 15px;
+        color: var(--black);
+        margin-right: 6.5px;
+        transform: rotate(-42deg);
+        &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__totalers--selected{
+        color:var(--app-tint);
+        font-size: 15px;
+        font-weight: 600;
+        svg{
+            font-size: 16px;
+            color: var(--black);
+            transform: rotate(-42deg);
+            &:hover{
+                    cursor: pointer;
+                }
+            }
+    }
+
+    &__totalers--refresh-refreshing{
+        color:var(--app-tint);
+        font-size: 15px;
+        svg{
+        color:var(--app-tint);
+        transform: rotate(-42deg);
+        }
+    }
+}

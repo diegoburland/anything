@@ -1,0 +1,53 @@
+
+.home{
+    &__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50vh;
+    }
+
+    &__logo--img{
+        width: 178px;
+        height: 178px;
+    }
+
+    &__text--header{
+        font-family: "Avenir Next";
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+
+    &__text--paragraph{
+        font-family: "Avenir Next";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: center;
+        color:#4A4A4A;
+        margin: 0 40px 115px;
+        
+
+
+    }
+
+    &__text--action-container{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .home{
+        
+        &__logo{
+                display: flex;
+                justify-content: center;
+            }
+        
+        }
+}

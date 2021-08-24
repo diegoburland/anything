@@ -1,0 +1,25 @@
+@import './settings/fonts.scss';
+
+// UI COMPONENTS
+@import './components/alert.scss';
+@import './components/button.scss';
+@import './components/loading.scss';
+@import './components/modal.scss';
+@import './components/inputText.scss';
+@import './components/linkTag.scss';
+@import './components/inputSearch.scss';
+@import './components/loadingUi.scss';
+@import './components/addButton.scss';
+@import './components/rowCounter.scss';
+@import './components/tooltip.scss';
+@import './components/carousel.scss';
+
+
+
+//VIEWS
+@import './views/home.scss';
+@import './views/main.scss';
+
+//layouts
+@import './components/footer.scss';
+@import './components/counters.scss';

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef8589f6.chunk.css",
+    "main.js": "/static/js/main.b3d0ae66.chunk.js",
+    "main.js.map": "/static/js/main.b3d0ae66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6c7820ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6c7820ca.js.map",
+    "static/css/2.dba268ef.chunk.css": "/static/css/2.dba268ef.chunk.css",
+    "static/js/2.a8075e63.chunk.js": "/static/js/2.a8075e63.chunk.js",
+    "static/js/2.a8075e63.chunk.js.map": "/static/js/2.a8075e63.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/2.dba268ef.chunk.css.map": "/static/css/2.dba268ef.chunk.css.map",
+    "static/css/main.ef8589f6.chunk.css.map": "/static/css/main.ef8589f6.chunk.css.map",
+    "static/js/2.a8075e63.chunk.js.LICENSE.txt": "/static/js/2.a8075e63.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/static/media/Nunito-Regular.334a6311.ttf",
+    "static/media/logo.svg": "/static/media/logo.929eb3c6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c7820ca.js",
+    "static/css/2.dba268ef.chunk.css",
+    "static/js/2.a8075e63.chunk.js",
+    "static/css/main.ef8589f6.chunk.css",
+    "static/js/main.b3d0ae66.chunk.js"
+  ]
+}

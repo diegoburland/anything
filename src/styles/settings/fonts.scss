@@ -1,0 +1,10 @@
+$font-AvenirNextLTPro_Bold: '../../assets/fonts/avenir-next-rounded/Nunito-Regular';
+
+
+@font-face {
+    font-family: "Avenir Next";
+    src: url("#{$font-AvenirNextLTPro_Bold}.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+  

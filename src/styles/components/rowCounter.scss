@@ -1,0 +1,88 @@
+.rowCounter{
+    min-height:67px;
+    padding-left: 12px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    &.active{
+        background-color: #ffeacc;
+    }
+
+    &__detail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    &__detail--description{
+        font-size: 16px;
+        color: #212121;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    &__detail--counter{
+        display: flex;
+        min-height: 67px;
+        align-items: center;
+        min-width: 120px;
+        justify-content: space-around;
+        padding-right: 0px;
+    }
+
+    &__detail--counter-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            width: 14px;
+            height: 14px;
+        }
+        &:hover{
+            cursor: pointer
+        }
+    }
+
+    &__detail--counter-number {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #212121
+    }
+
+    &__detail--counter-less {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            width: 14px;
+            height: 14px;
+        }
+        &:hover{
+            cursor: pointer
+        }
+    }
+
+    &__detail--counter-button {
+        background-color: transparent;
+        border: none;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    
+}
+
+@media(max-width: 570px){
+    .rowCounter{
+        &__detail{
+            align-items: baseline;
+        }
+    }
+    
+}
